@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.blue {
+    color: #5badff;
+}
+
+.darkBlue {
+    color: #1a5997;
+}
+
+.white {
+    color: white;
+}
+
+.top {
+    padding-top: 15px;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+}
+
+html, body {
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 50px;
+    color: #5badff;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 40px;
+    padding-left: 20px;
+    color: #5badff;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 20px;
+    color: #5badff;
+}
+
+header {
+    width: 100%;
+    z-index: 1;
+    padding-top: 15px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.685), rgba(255, 255, 255, 0));
+}
+
+ul {
+    width: 100%;
+    height: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+.logo {
+    float: left;
+    width: 120px;
+    padding-left: 20px;
+    transition: width 0.5s;
+}
+
+.logo:hover {
+    width: 150px;
+}
+
+nav {
+    font-weight: 400;
+    float: right;
+}
+
+li {
+    margin-right: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a, li {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.4s;
+}
+
+nav a:hover, li:hover {
+    color: #1a5997;
+    transform: scale(1.1);
+}
+
+footer a {
+    color: white;
+    margin-right: 20px;
+}
+
+footer a:hover {
+    color: #5badff;
+}
+
+video {
+    position: fixed;
+    min-height: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+}
+
+section {
+    background-color: white;
+}
+
+.packageTours {
+    padding-bottom: 80px;
+}
+
+.contactUs {
+    padding-left: 80px;
+    padding-bottom: 30px;
+    padding-right: 80px;
+}
+
+.contactUsForm {
+    padding-left: 80px;
+    padding-bottom: 30px;
+    padding-right: 80px;
+}
+
+p {
+    font-weight: 400;
+}
+
+article {
+    font-weight: 400;
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.gallery {
+    margin: 10px;
+    border-radius: 25px;
+    transition: transform .5s;
+    background-color: #5badff;
+    z-index: 3;
+}
+
+div.gallery:hover {
+    border: 3px solid #1a5997;
+    transform: scale(1.1);
+}
+
+div.gallery img {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+footer {
+    background-color: #1a5997;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-top: 1px;
+    width: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav hr {
+    border: 1px solid #5badff;
+}
+
+.splashButton {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #5badff;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.splashButton:hover {
+    background-color: #4d92d8;
+}
+
+.submitButton {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #1a5997;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.submitButton:hover {
+    background-color: #1a5997;
+}
+
+main {
+    background-color: white;
+}
+
+textarea{
+    resize: vertical;
+    width: 300px;
+}
+
+
+div.splash {
+    margin-left: 70px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.desc hr {
+    border: 1px solid white;
+    text-align: center;
+}
+
+.pkgArt {
+    margin-top: 100px;
+}
+
+.infoPkg {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 200px;
+}
+
+.colourRed {
+    color: red;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container>div {
+    width: 1200px;
+    margin: 20px;
+    text-align: left;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p.mobile {
+    display: none;
+}
+
+p.website {
+    display: block;
+}
+
+div.webNav {
+    display: block;
+}
+
+div.mobileNav {
+    display: none;
+}
+
+@media only screen and (max-width: 888px) {
+    body {
+        font-size: 4vw;
+        background-image: url('images/splash1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    h1, h3 {
+        font-size: 8vw;
+    }
+
+    div.splash form {
+        margin-top: 8vw;
+    }
+
+    div.splash {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 45vw;
+        margin-bottom: 5vw;
+    }
+
+    /* delete h3 element in splash and the caption under hot locations*/
+    div.splash h3, section p.caption {
+        display: none;
+    }
+
+    .splashButton {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 4vw;
+        background-color: #5badff;
+        border-radius: 15px;
+        transition: 0.4s;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .responsive {
+        width: 100%;
+    }
+
+    div.gallery {
+        margin: 4vw 2vw 4vw 2vw;
+        border-radius: 25px;
+        background-color: #5badff;
+        z-index: 3;
+    }
+
+    p.website {
+        display: none;
+    }
+
+    p.mobile {
+        display: block;
+
+    }
+
+    div.webNav {
+        display: none;
+    }
+
+    div.mobileNav {
+        display: block;
+    }
+
+    div.menuIcon {
+        margin: 0vw 5vw;
+        fill: #4d92d8;
+    }
+
+    .infoPkg {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 85vw;
+    }
+
+    .small {
+        font-size: 3vw;
+    }
+
+    .contactUs {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 5vw;
+    }
+
+    .contactUsForm {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 5vw;
+    }
+
+    textarea{
+        resize: vertical;
+        width: 10uv;
+    }
+
+    video{
+        display: none;
+    }
+    
+}
